@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700');
+
+// $font-path: "../fonts/quicksand";
+
+// @font-face {
+//   font-family: 'Quicksand';
+//   font-style: normal;
+//   font-weight: 300;
+//   src: url('#{$font-path}/quicksand-v7-latin-300.eot');
+//   src: local("Quicksand Light"), local("Quicksand-Light"), 
+//   		 url('#{$font-path}/quicksand-v7-latin-300.eot?#iefix') format("embedded-opentype"), 
+//   		 url('#{$font-path}/quicksand-v7-latin-300.woff2') format("woff2"), 
+//   		 url('#{$font-path}/quicksand-v7-latin-300.woff') format("woff"), 
+//   		 url('#{$font-path}/quicksand-v7-latin-300.ttf') format("truetype"), 
+//   		 url('#{$font-path}/quicksand-v7-latin-300.svg#Quicksand') format("svg");
+// }
+
+// @font-face {
+//   font-family: 'Quicksand';
+//   font-style: normal;
+//   font-weight: 400;
+//   src: url('#{$font-path}/quicksand-v7-latin-regular.eot');
+//   src: local("Quicksand Regular"), local("Quicksand-Regular"), 
+//   		 url('#{$font-path}/quicksand-v7-latin-regular.eot?#iefix') format("embedded-opentype"), 
+//   		 url('#{$font-path}/quicksand-v7-latin-regular.woff2') format("woff2"), 
+//   		 url('#{$font-path}/quicksand-v7-latin-regular.woff') format("woff"), 
+//   		 url('#{$font-path}/quicksand-v7-latin-regular.ttf') format("truetype"), 
+//   		 url('#{$font-path}/quicksand-v7-latin-regular.svg#Quicksand') format("svg");
+// }
+
+// @font-face {
+//   font-family: 'Quicksand';
+//   font-style: normal;
+//   font-weight: 500;
+//   src: url('#{$font-path}/quicksand-v7-latin-500.eot');
+//   src: local("Quicksand Medium"), local("Quicksand-Medium"), 
+//   		 url('#{$font-path}/quicksand-v7-latin-500.eot?#iefix') format("embedded-opentype"), 
+//   		 url('#{$font-path}/quicksand-v7-latin-500.woff2') format("woff2"), 
+//   		 url('#{$font-path}/quicksand-v7-latin-500.woff') format("woff"), 
+//   		 url('#{$font-path}/quicksand-v7-latin-500.ttf') format("truetype"), 
+//   		 url('#{$font-path}/quicksand-v7-latin-500.svg#Quicksand') format("svg");
+// }
+
+// @font-face {
+//   font-family: 'Quicksand';
+//   font-style: normal;
+//   font-weight: 700;
+//   src: url('#{$font-path}/quicksand-v7-latin-700.eot');
+//   src: local("Quicksand Bold"), local("Quicksand-Bold"), 
+//   		 url('#{$font-path}/quicksand-v7-latin-700.eot?#iefix') format("embedded-opentype"), 
+//   		 url('#{$font-path}/quicksand-v7-latin-700.woff2') format("woff2"), 
+//   		 url('#{$font-path}/quicksand-v7-latin-700.woff') format("woff"), 
+//   		 url('#{$font-path}/quicksand-v7-latin-700.ttf') format("truetype"), 
+//   		 url('#{$font-path}/quicksand-v7-latin-700.svg#Quicksand') format("svg");
+// }
+
+.has-text-brand {
+	&-light {
+		font-family: 'Quicksand', sans-serif;
+		font-weight: 300;
+	}
+	&-regular {
+		font-family: 'Quicksand', sans-serif;
+		font-weight: 400;
+	}
+	&-medium {
+		font-family: 'Quicksand', sans-serif;
+		font-weight: 500;
+	}
+	&-bold {
+		font-family: 'Quicksand', sans-serif;
+		font-weight: 700;
+	}
+}
